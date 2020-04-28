@@ -1,0 +1,1348 @@
+@font-face {
+  src: url(../src/font/Montserrat-Regular.ttf);
+  font-family: Montserrat;
+}
+* {
+  font-family: Montserrat;
+}
+.bgImage {
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('bgImage.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size:  cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 300px;
+}
+.container {
+  width: 80%;
+  margin-left: 10%;
+}
+.logosDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+.mailDiv:hover {
+  cursor: pointer;
+}
+.titleDiv {
+  font-size: 48px;
+  color: #ffffff;
+  font-weight: 600;
+  line-height: 62px;
+  padding-top: 5%;
+  padding-right: 10%;
+}
+.titleDiv p {
+  border-left: 2px solid #ffffff;
+  padding-left: 5%;
+}
+.descText {
+  font-weight: 300;
+  font-size: 24px;
+  color: #ffffff;
+  margin-top:8%;
+  padding-left: 60%;
+  padding-bottom: 14%;
+  text-align: right;
+}
+.boxesDiv {
+  display: flex;
+  padding-left: 25%;
+  padding-top: 10%;
+  padding-bottom: 3%;
+}
+.leftBox {
+  width: 40%;
+  font-size: 22px;
+  padding-left: 0;
+  margin-right: 5%;
+  /* margin-bottom: 5%; */
+}
+.rightBox {
+  width: 40%;
+  font-size: 22px;
+}
+.rightBoxOffer {
+  width: 40%;
+  font-size: 22px;
+}
+.arrowIcon {
+  display: none;
+}
+.sliderDiv {
+  background-color: #e3ebce;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 160px;
+  width: 100%;
+  margin-top: 0%;
+}
+
+.marginBottom {
+  width: 24%;
+  display: flex;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in-out;
+}
+.marginBottom:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.marginBottom:hover .firstText {
+  font-weight: bold;
+  color: #000000
+}
+.marginBottom:hover .secondText {
+  font-weight: bold;
+  color: #000000
+}
+.no-padding {
+  width: 50%;
+  margin-left: -10%;
+}
+.firstText {
+  font-size: 18px;
+  color: #000000;
+  padding: 0;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.secondText {
+  font-size: 12px;
+  color: #000000;
+  margin: 0px;
+}
+.arrowSlider {
+  margin-right: 2%;
+  margin-left: 2%;
+}
+.hidden {
+  display: none;
+}
+.arrowSlider:hover {
+  cursor: pointer;
+}
+.offerDiv {
+  margin-left: 10%;
+}
+.offerDiv p {
+  font-size: 48px;
+  color: #000000;
+  padding-left: 5%;
+  font-weight: 600;
+  line-height: 62px;
+  border-left: 2px solid #000000;
+}
+.boxesDivOffer {
+  display: flex;
+  align-items: center;
+  padding-left: 25%;
+}
+.newsletter {
+  z-index: 1;
+  width: 30%;
+  margin-left: 25%;
+  margin-top: 0%;
+}
+.newsLetterSignUp {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 10%;
+}
+.flexNewsletter {
+  display: flex;
+  align-items: center;
+}
+.confirmation p {
+  z-index: -1;
+  margin-top: 13%;
+  margin-left: 5%;
+  padding-right: 40%;
+  text-align: center;
+}
+#email {
+  width: 100%;
+  border: none;
+  border-bottom: 0.5px solid #000000;
+  border-radius: none;
+}
+#email:focus {
+  outline: none;
+}
+.submitBtn {
+  width: 100%;
+  background-color: #e3ebce;
+  height: 60px;
+  border: none;
+  margin-top: 15%;
+}
+.submitBtn:hover {
+  cursor: pointer;
+}
+.form {
+  margin-top: 0%;
+}
+.offerP {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0;
+}
+.offerSecondDiv {
+  background-color: #e3ebce;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-items: center;
+  height: 160px;
+  margin-top: 7%;
+  margin-bottom: 7%;
+  padding-left: 10%;
+}
+.arrowIconOffer {
+  display: none;
+}
+.bottomForm {
+  background: linear-gradient(
+      to bottom,
+      #ffffff 27.23%,
+      rgba(255, 255, 255, 0) 77.52%
+    ),
+    url("bottomForm.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.divFormBottom {
+  padding-top: 10%;
+  padding-bottom: 3%;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+.leftForm {
+  width: 33%;
+}
+.rightForm {
+  width: 33%
+}
+.callUs {
+  font-size: 20px;
+  margin-bottom: 20%;
+}
+#text,
+#emailBottom {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #000000;
+  margin-bottom: 8%;
+}
+#messageBottom {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 0.5px solid #000000;
+}
+#text:focus {
+  outline: none;
+}
+.emailContactBottom {
+  font-weight: 600;
+  color: #000000;
+  padding-top: 8%;
+  padding-bottom: 12%;
+}
+.basicInfo {
+  margin-bottom:3%;
+  font-weight: normal;
+  font-size: 14px;
+  color: #000000;
+  line-height: 18px
+}
+.fa-times {
+  display: none;
+} 
+.colorBlack {
+  color: black;
+}
+.colorWhite {
+  color: rgb(255, 255, 255);
+}
+.positionAbsolute {
+  position: absolute;
+  bottom: 0;
+  color: black;
+}
+.positionFixed {
+  position: fixed;
+}
+#section-2 {
+  width: 150px;
+  margin-top: -90px;
+}
+.displayNone {
+  display: none;
+}
+.displayBlock {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #section-2 {
+    display: none;
+  }
+  .fa-times {
+    display: block;
+    margin-left: 24%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+  }
+  .bgImage {
+    height: 39vh;
+  }
+  .logosDiv {
+    margin-top: 0%;
+  }
+  .logoDiv {
+    padding-left: 0;
+  }
+  .mailDiv {
+    padding-right: 0;
+  }
+  .logoDiv img {
+    width: 60px;
+  }
+  .container {
+    padding: 0;
+  }
+  .mailDiv img {
+    margin-left: 0%;
+    width: 25px;
+  }
+  .titleDiv {
+    line-height: 25px;
+    padding-right: 5%;
+    margin-top: 0%;
+    padding-top: 5%;
+    font-size: 20px;
+    position: relative;;
+  }
+  .titleDiv p {
+    border: none;
+  }
+  .titleDivHidden {
+    display: none;
+  }
+  .descText {
+    font-weight: 300;
+    font-size: 10px;
+    color: #ffffff;
+    margin-top: 8%;
+    margin-left: 35%;
+    padding-left: 10%;
+  }
+  .boxesDiv {
+    display: block;
+    margin-left: 0%;
+    padding-left: 35%;
+    margin-top: 0%;
+  }
+  .leftBox {
+    font-size: 10px;
+    width: 90%;
+  }
+  .rightBox {
+    font-size: 10px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .rightBoxOffer {
+    font-size: 10px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .displayBlock {
+    display: block;
+  }
+  .arrowIcon {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .sliderDiv {
+    display: block;
+    height: 35%;
+    width: 70%;
+    margin-left: 5%;
+    padding: 10%;
+    background-color: #e5e5e5;
+  }
+  .marginBottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  .arrowSlider {
+    display: none;
+  }
+  .marginBottom {
+    margin-bottom: 15%;
+  }
+  .no-padding {
+    padding-left: 0%;
+    margin-left: 0%;
+  }
+  .firstText {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .secondText {
+    font-size: 10px;
+  }
+  .leftBox {
+    margin-right: 0;
+  }
+  .rightBox {
+    padding-left: 0;
+  }
+  .offerSecondDiv {
+    background-color: transparent;
+    margin-top: 20%;
+  }
+  .offerP {
+    font-size: 15px;
+    text-align: center;
+  }
+  .offerDiv p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    border: none;
+  }
+  .offerDiv {
+    margin-left: 5%;
+  }
+  .boxesDivOffer {
+    display: block;
+    margin-top: 15;
+    margin-left: 0%;
+    padding-left: 35%;
+  }
+  .arrowIconOffer {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .newsletter {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .newsLetterSignUp {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10%;
+  }
+  .flexNewsletter {
+    display: block;
+  }
+  .confirmation p {
+    z-index: -1;
+    margin-top: 13%;
+    margin-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+  }
+  .submitBtn {
+    width: 100%;
+    background-color: #e3ebce;
+    height: 50px;
+    border: none;
+    margin-top: 5%;
+  }
+  .offerSecondDiv {
+    width: 60%;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding-left: 35%;
+  }
+  .offerP {
+    text-align: left;
+    font-size: 10px;
+  }
+  .bottomForm {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 1.23%,
+        rgba(255, 255, 255, 0) 50.52%
+      ),
+      url("mobileForm.png");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .divFormBottom {
+    display: block;
+    margin-top: 10%;
+    padding-bottom: 10%;
+  }
+  .leftForm {
+    width: 100%;
+  }
+  .rightForm {
+    width: 100%;
+  }
+  .callUs {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 0% ;
+    color: #000000;
+    font-weight: 600;
+  }
+  #text,
+  #emailBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 8%;
+  }
+  #messageBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+  }
+  #text:focus {
+    outline: none;
+  }
+  .emailContactBottom {
+    font-weight: 600;
+    color: #000000;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 22px;
+    margin-left: 15%
+  }
+  .basicInfo {
+    margin-bottom: 5%;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-left: 15%;
+  }
+  .displayNone {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 321px) and (max-width: 375px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .logoDiv {
+    padding-left: 0;
+  }
+  .mailDiv {
+    padding-right: 0;
+  }
+  .logoDiv img {
+    width: 60px;
+  }
+  .mailDiv img {
+    margin-left: 0%;
+    width: 25px;
+  }
+  .titleDiv {
+    line-height: 31px;
+    padding-right: 0%;
+    margin-top: 2%;
+    font-size: 22px;
+    padding-top: 5%;
+    position: relative;
+  }
+  .titleDivHidden {
+    display: none;
+  }
+  .descText {
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0%;
+    margin-left: 35%;
+    padding-left: 0%;
+  }
+  .boxesDiv {
+    display: block;
+    margin-left: 0%;
+    padding-left: 35%;
+    margin-top: 15%;
+  }
+  .leftBox {
+    font-size: 12px;
+    width: 90%;
+  }
+  .rightBox {
+    font-size: 12px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .rightBoxOffer {
+    font-size: 12px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .displayBlock {
+    display: block;
+  }
+  .arrowIcon {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .sliderDiv {
+    display: block;
+    height: 40%;
+    width: 70%;
+    margin-left: 5%;
+    padding: 10%;
+    background-color: #e5e5e5;
+  }
+  .marginBottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .no-padding {
+    margin-left: 0%;
+  }
+  .arrowSlider {
+    display: none;
+  }
+  .marginBottom {
+    margin-bottom: 15%;
+  }
+  .no-padding {
+    padding-left: 0%;
+  }
+  .firstText {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .secondText {
+    font-size: 10px;
+  }
+  .leftBox {
+    margin-right: 0;
+  }
+  .rightBox {
+    padding-left: 0;
+  }
+  .offerSecondDiv {
+    background-color: transparent;
+    margin-top: 0%;
+  }
+  .offerP {
+    font-size: 12px;
+    text-align: left;
+  }
+  .offerDiv p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    border: none;
+  }
+  .offerDiv {
+    margin-left: 5%;
+  }
+  .boxesDivOffer {
+    display: block;
+    margin-top: 15;
+    margin-left: 0%;
+    padding-left: 35%;
+  }
+  .arrowIconOffer {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .fa-times {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .flexNewsletter {
+    display: block;
+  }
+  .confirmation p {
+    margin-left: 0%;
+    padding-right: 0%;
+  }
+  .newsletter {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .newsLetterSignUp {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10%;
+  }
+  .submitBtn {
+    width: 100%;
+    background-color: #e3ebce;
+    height: 50px;
+    border: none;
+    margin-top: 15%;
+  }
+  .offerSecondDiv {
+    width: 60%;
+    padding-left: 35%;
+    margin-top: 0%;
+  }
+  .bottomForm {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 1.23%,
+        rgba(255, 255, 255, 0) 50.52%
+      ),
+      url("mobileForm.png");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .divFormBottom {
+    display: block;
+    margin-top: 10%;
+    padding: 0;
+  }
+  .leftForm {
+    width: 100%;
+  }
+  .rightForm {
+    width: 100%;
+  }
+  .callUs {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 0% ;
+    color: #000000;
+    font-weight: 600;
+  }
+  .divFormBottom p {
+    font-size: 14px;
+    margin-bottom: 0%;
+  }
+  #text,
+  #emailBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 8%;
+  }
+  #messageBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+  }
+  #text:focus {
+    outline: none;
+  }
+  .emailContactBottom {
+    font-weight: 600;
+    color: #000000;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 22px;
+    margin-left: 21%
+  }
+  .basicInfo {
+    margin-bottom:3%;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-left: 20%;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 376px) and (max-width: 425px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .logoDiv {
+    padding-left: 0;
+  }
+  .mailDiv {
+    padding-right: 0;
+  }
+  .logoDiv img {
+    width: 60px;
+  }
+  .mailDiv img {
+    margin-left: 0%;
+    width: 25px;
+  }
+  .titleDiv {
+    line-height: 31px;
+    padding-right: 0%;
+    padding-top: 5%;
+    margin-top: 0%;
+    font-size: 24px;
+    position: relative;
+  }
+  .titleDivHidden {
+    display: none;
+  }
+  .descText {
+    font-weight: 300;
+    font-size: 12px;
+    color: #ffffff;
+    margin-top: 0%;
+    margin-left: 40%;
+    padding-left: 10%;
+  }
+  .boxesDiv {
+    display: block;
+    margin-left: 0%;
+    padding-left: 35%;
+    margin-top: 20%;
+  }
+  .leftBox {
+    font-size: 12px;
+    width: 90%;
+  }
+  .rightBox {
+    font-size: 12px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .rightBoxOffer {
+    width: 90%;
+    display: none;
+    font-size: 12px;
+    margin-top: 5% ;
+  }
+  .displayBlock {
+    display: block;
+  }
+  .arrowIcon {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .sliderDiv {
+    display: block;
+    height: 50%;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #e5e5e5;
+  }
+  .marginBottom {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .arrowSlider {
+    display: none;
+  }
+  .marginBottom {
+    margin-bottom: 15%;
+  }
+  .no-padding {
+    padding-left: 0%;
+  }
+  .firstText {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .secondText {
+    font-size: 10px;
+  }
+  .leftBox {
+    margin-right: 0;
+  }
+  .rightBox {
+    padding-left: 0;
+  }
+  .offerSecondDiv {
+    background-color: transparent;
+    margin-top: 20%;
+  }
+  .offerP {
+    font-size: 12px;
+    text-align: left;
+  }
+  .offerDiv p {
+    font-size: 18px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    border: none;
+  }
+  .offerDiv {
+    margin-left: 5%;
+  }
+  .boxesDivOffer {
+    display: block;
+    margin-top: 15;
+    margin-left: 0%;
+    padding-left: 35%;
+  }
+  .arrowIconOffer {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .fa-times {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .newsletter {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .newsLetterSignUp {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10%;
+  }
+  .submitBtn {
+    width: 100%;
+    background-color: #e3ebce;
+    height: 50px;
+    border: none;
+    margin-top: 5%;
+  }
+  .offerSecondDiv {
+    width: 60%;
+    padding-left: 35%;
+    margin-top: 0%;
+  }
+  .bottomForm {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 1.23%,
+        rgba(255, 255, 255, 0) 50.52%
+      ),
+      url("mobileForm.png");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .divFormBottom {
+    display: block;
+    margin-top: 10%;
+    padding: 0;
+  }
+  .leftForm {
+    width: 100%;
+  }
+  .rightForm {
+    width: 100%;
+  }
+  .callUs {
+    font-size: 20px;
+    margin-top: 5%;
+    margin-bottom: 0% ;
+    color: #000000;
+    font-weight: 600;
+  }
+  .divFormBottom p {
+    font-size: 14px;
+    margin-bottom: 3%;
+  }
+  #text,
+  #emailBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 8%;
+  }
+  #messageBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+  }
+  #text:focus {
+    outline: none;
+  }
+  .emailContactBottom {
+    font-weight: 600;
+    color: #000000;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 22px;
+    margin-left: 21%
+  }
+  .basicInfo {
+    margin-bottom:3%;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-left: 20%;
+  } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 426px) and (max-width: 768px) {
+  .container {
+    width: 90%;
+    margin-left: 5%;
+  }
+  .bgImage {
+    background-position: center;
+  }
+  .logoDiv {
+    padding-left: 0;
+  }
+  .mailDiv {
+    padding-right: 0;
+  }
+  .logoDiv img {
+    width: 60px;
+  }
+  .mailDiv img {
+    margin-left: 55%;
+    width: 25px;
+  }
+  .titleDiv {
+    line-height: 38px;
+    padding-right: 10%;
+    margin-top: 0%;
+    padding-top: 5%;
+    padding-left: 0%;
+    font-size: 5vw;
+    position: relative;
+  }
+  .titleDivHidden {
+    display: none;
+  }
+  .descText {
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    margin-top: -4%;
+    margin-left: 40%;
+    padding-left: 10%;
+  }
+  .boxesDiv {
+    display: block;
+    margin-left: 0%;
+    margin-top: 5%;
+    padding-left: 35%;
+  }
+  .leftBox {
+    font-size: 16px;
+    width: 90%;
+  }
+  .rightBox {
+    font-size: 16px;
+    width: 90%;
+    display: none;
+    margin-top: 5% ;
+  }
+  .rightBoxOffer {
+    width: 90%;
+    display: none;
+    font-size: 18px;
+    margin-top: 5% ;
+  }
+  .displayBlock {
+    display: block;
+  }
+  .arrowIcon {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .sliderDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #e5e5e5;
+  }
+  .marginBottom {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    /* margin-left: 5%; */
+  }
+  .arrowSlider {
+    display: none;
+  }
+  .no-padding {
+    padding-left: 0%;
+    margin-left: 3%;
+  }
+  .firstText {
+    margin-bottom: 0;
+    font-size: 16px;
+  }
+  .secondText {
+    font-size: 10px;
+  }
+  .leftBox {
+    margin-right: 0;
+  }
+  .rightBox {
+    padding-left: 0;
+  }
+  .offerSecondDiv {
+    background-color: transparent;
+    margin-top: 20%;
+  }
+  .offerDiv p {
+    font-size: 36px;
+    color: #000000;
+    font-weight: 600;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    padding-right: 0%;
+    padding-left: 0%;
+    border: none;
+  }
+  .offerDiv {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .boxesDivOffer {
+    display: block;
+    margin-top: 15;
+    margin-left: 0%;
+    padding-left: 35%;
+  }
+  .arrowIconOffer {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .fa-times {
+    display: block;
+    margin-left: 25%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    width: 17px;
+  }
+  .newsletter {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 0%;
+  }
+  .newsLetterSignUp {
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10%;
+  }
+  .submitBtn {
+    width: 100%;
+    background-color: #e3ebce;
+    height: 50px;
+    border: none;
+    margin-top: 5%;
+  }
+  .offerSecondDiv {
+    width: 60%;
+    padding-left: 35%;
+    margin-top: 5%;
+  }
+  .flexNewsletter {
+    display: block;
+  }
+  .confirmation p {
+    margin-top: 5%;
+    margin-left: 0%;
+    padding-right: 0%;
+  }
+  .offerP {
+    text-align: left;
+    font-size: 16px;
+  }
+  .bottomForm {
+    background: linear-gradient(
+        to bottom,
+        #ffffff 1.23%,
+        rgba(255, 255, 255, 0) 50.52%
+      ),
+      url("mobileForm.png");
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+  }
+  .divFormBottom {
+    display: block;
+    margin-top: 10%;
+    padding: 0;
+  }
+  .leftForm {
+    width: 100%;
+  }
+  .rightForm {
+    width: 100%;
+  }
+  .callUs {
+    font-size: 18px;
+    margin-top: 5%;
+    margin-bottom: 5% ;
+    color: #000000;
+    font-weight: 600;
+  }
+  #text,
+  #emailBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+    margin-bottom: 8%;
+  }
+  #messageBottom {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.5px solid #000000;
+  }
+  #text:focus {
+    outline: none;
+  }
+  .emailContactBottom {
+    font-weight: 600;
+    color: #000000;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    font-size: 22px;
+    margin-left: 21%
+  }
+  .basicInfo {
+    margin-bottom:0%;
+    font-weight: normal;
+    font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    margin-left: 20%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
